@@ -186,6 +186,10 @@ main {
     background-color: #FF0000;
 }
 
+.social-btn.facebook {
+    background-color: #1877F2;
+}
+
 /* Hover Effects */
 .social-btn:hover {
     transform: translateY(-3px);
@@ -207,6 +211,11 @@ main {
 .social-btn.youtube:hover {
     background-color: #cc0000;
 }
+
+.social-btn.facebook:hover {
+    background-color: #155db2;
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;
