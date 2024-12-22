@@ -17,7 +17,7 @@ ul {
 }
 
 button {
-    background-color: #FF5733;
+    background-color: #ff3333;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-    background-color: #D94C28;
+    background-color: #40fd79;
 }
 
 footer {
@@ -40,7 +40,7 @@ footer {
 
 /* Header Styles */
 header {
-    background-color: #FF5733;
+    background-color: #ff4040;
     padding: 20px;
     text-align: center;
 }
@@ -49,6 +49,37 @@ header h1 {
     font-size: 36px;
     color: white;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+ 
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* White text for better contrast */
+    margin: 0 15px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    background-color: #000000; /* Background for buttons */
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background-color: #fffb00; /* Highlighted background on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
 
 /* Main Section */
 main {
@@ -97,7 +128,85 @@ main {
 .ingredients li {
     margin-bottom: 5px;
 }
+/* General Section Styles */
+#contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-top: 5px solid #ddd;
+}
 
+#contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Social Links Styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+    min-width: 120px;
+}
+
+/* Individual Social Button Colors */
+.social-btn.instagram {
+    background-color: #E1306C;
+}
+
+.social-btn.whatsapp {
+    background-color: #25D366;
+}
+
+.social-btn.tiktok {
+    background-color: #000;
+}
+
+.social-btn.youtube {
+    background-color: #FF0000;
+}
+
+/* Hover Effects */
+.social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-btn.instagram:hover {
+    background-color: #c0275b;
+}
+
+.social-btn.whatsapp:hover {
+    background-color: #1da851;
+}
+
+.social-btn.tiktok:hover {
+    background-color: #333;
+}
+
+.social-btn.youtube:hover {
+    background-color: #cc0000;
+}
 /* Footer Styles */
 footer {
     background-color: #333;
